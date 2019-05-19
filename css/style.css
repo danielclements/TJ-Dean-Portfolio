@@ -9,23 +9,22 @@
     z-index: 1;
 }
 
-.navbar-bg{
-    background-color: rgba(0,0,0,0.3)
+.navbar-bg {
+    background-color: rgba(0, 0, 0, 0.3)
 }
 
-.nav-item a{
+.nav-item a {
     text-decoration: none;
-    color:#f2f2f2;
+    color: #f2f2f2;
     font-size: 20px;
 }
 
-.nav-toggler-button{
+.nav-toggler-button {
     color: #f2f2f2;
     font-size: 27px;
 }
+
 /*---------------------/NavBar-----------------------------*/
-
-
 
 /*------------------------Landing Page---------------------------------*/
 
@@ -70,26 +69,26 @@
 
 
 
-.continue-wrapper{
- position: absolute;
+.continue-wrapper {
+    position: absolute;
     bottom: 0;
     text-align: center;
     padding-left: 0;
     padding-right: 0;
     z-index: 1;
-   width: 100%;
-   color: #f2f2f2;
-   border:solid red 3px;
-   font-size: 20px;
+    width: 100%;
+    color: #f2f2f2;
+    border: solid red 3px;
+    font-size: 20px;
 }
 
-.continue-wrapper p{
+.continue-wrapper p {
     margin: 0;
 }
 
 
 
-.continue-wrapper p i{
+.continue-wrapper p i {
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -97,10 +96,60 @@
 
 
 /*------------------------/Landing Page--------------------------------*/
-.portfolio-bg{
-    background-color: grey;
+
+
+
+
+/*------------------------Portfolio--------------------------------*/
+
+
+.portfolio-bg {
+    background: url(/assets/images/portfolio-bg.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 0;
+}
+
+.background-alpha-02{
+    background-color: rgba(0,0,0,0.2);
+    height:100%;
+    width: 100%;
+    position:relative;
+}
+
+.imglist {
+    text-align: center;
+    border: solid green 2px;
+}
+
+.imglist a img {
+    padding: 45px 30px;
+    border: solid 1px black;
+}
+
+/*------------------------/Portfolio--------------------------------*/
+
+
+
+/*------------------------/Bio--------------------------------*/
+.bio-container{
+    
+    background-image: linear-gradient(to bottom right,#a8253a, #dd929e);
     
 }
+
+#tj-bio-pic{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+
+
+
 
 /*-----------------------------Misc-------------------*/
 

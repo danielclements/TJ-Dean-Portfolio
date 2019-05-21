@@ -29,7 +29,7 @@
 /*------------------------Landing Page---------------------------------*/
 
 .landing-page-background {
-    background: url(/assets/images/landing-bg.png) no-repeat center center fixed;
+    background: url(/assets/images/landing-bg.png) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -97,11 +97,7 @@
 
 /*------------------------/Landing Page--------------------------------*/
 
-
-
-
 /*------------------------Portfolio--------------------------------*/
-
 
 .portfolio-bg {
     background: url(/assets/images/portfolio-bg.png) no-repeat center center fixed;
@@ -112,11 +108,11 @@
     padding: 0;
 }
 
-.background-alpha-02{
-    background-color: rgba(0,0,0,0.2);
-    height:100%;
+.background-alpha-02 {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100%;
     width: 100%;
-    position:relative;
+    position: relative;
 }
 
 .imglist {
@@ -131,27 +127,78 @@
 
 /*------------------------/Portfolio--------------------------------*/
 
+/*------------------------Bio---------------------------------*/
 
+.bio-container {
 
-/*------------------------/Bio--------------------------------*/
-.bio-container{
-    
-    background-image: linear-gradient(to bottom right,#a8253a, #dd929e);
-    
+    background-image: linear-gradient(to bottom right, #a8253a, #dd929e);
+
 }
 
-#tj-bio-pic{
+#tj-bio-pic {
     height: 100%;
     width: 100%;
     position: relative;
     margin-bottom: 15px;
 }
 
+/*------------------------/Bio---------------------------------*/
+
+/*-----------------------------FAQ-----------------------*/
+
+.faq-container {
+    text-align: center;
+    margin: 0px;
+}
 
 
 
+.faq-bg {
+    background-color: #f4f4f4;
+    margin: 0;
+}
 
-/*-----------------------------Misc-------------------*/
+.question-container {
+    margin-bottom: 45px;
+}
+
+
+.faq-question {
+    text-align: left;
+    background-color: #e8e6e6;
+    color: Black;
+    border-width: 0px 0px 0px 4px;
+    border-style: solid;
+    border-color: #e82c2c;
+    margin: 0;
+}
+
+.faq-answer {
+    text-align: left;
+    border-width: 0px 0px 0px 4px;
+    border-style: solid;
+    border-color:#cccccc;
+    margin: 0;
+}
+
+
+.span-question {
+    color: #e82c2c;
+    font-size: 40px;
+    padding-right: 8px;
+}
+
+.span-answer {
+    color: #cccccc;
+    font-size: 40px;
+    padding-right: 8px;
+}
+
+
+
+/*-----------------------------/FAQ----------------------*/
+
+/*-----------------------------Misc----------------------*/
 
 .float-right {
     float: right;
@@ -159,4 +206,11 @@
 
 .float-left {
     float: left;
+}
+
+
+
+.row {
+    margin: 0;
+    padding: 0;
 }

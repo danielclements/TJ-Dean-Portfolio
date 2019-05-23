@@ -7,3 +7,7 @@ https://fancyapps.com/fancybox/3/ for image model / slideshow
 https://www.w3schools.com/css/css3_gradients.asp for background gradeient 
 
 https://www.nintendo.co.uk/Nintendo-Switch/Nintendo-Switch-Online/FAQ-1374625.html inspo for the FAQ page 
+
+
+Form taken from bootstrap documentation - Bug email allowing submit even when incorrected email is submitted 
+also the choose file button dissapears on mobile view 

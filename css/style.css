@@ -219,8 +219,48 @@
 
 /*-----------------------------/FAQ----------------------*/
 
+/*-----------------------------Contact-------------------*/
+
+.contact-bg{
+    background: url(/assets/images/contact-gb.png) no-repeat center center fixed ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+#form-style{
+    margin-top: 160px;
+}
+
+.form-element-style{
+    background-color: #e8e6e6;
+        border: solid #8d5510 2px;
+}
+
+#exampleFormControlFile1 {
+    padding:0
+}
+
+input{
+    z-index: 3;
+}
 /*-----------------------------Misc----------------------*/
 
+.header{
+    padding-top: 15px;
+    text-align:center;
+    }
+
+.header-white{
+    color:#f9f7f7;
+}
+
+.header-black{
+    color: #303030;
+}
 .float-right {
     float: right;
 }

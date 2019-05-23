@@ -61,7 +61,6 @@
 
 .headers-wrapper {
     color: #f2f2f2;
-    border: solid yellow 2px;
     height: 100%;
     margin: 0;
 
@@ -78,7 +77,6 @@
     z-index: 1;
     width: 100%;
     color: #f2f2f2;
-    border: solid red 3px;
     font-size: 20px;
 }
 
@@ -117,12 +115,10 @@
 
 .imglist {
     text-align: center;
-    border: solid green 2px;
 }
 
 .imglist a img {
     margin: 45px 30px;
-    border: solid 1px black;
 }
 
 /*------------------------/Portfolio--------------------------------*/
@@ -233,6 +229,8 @@
 
 #form-style{
     margin-top: 160px;
+    padding-left: 0;
+    padding-right: 50px;
 }
 
 .form-element-style{
@@ -244,9 +242,9 @@
     padding:0
 }
 
-input{
-    z-index: 3;
-}
+
+
+
 /*-----------------------------Misc----------------------*/
 
 .header{
@@ -274,4 +272,14 @@ input{
 .row {
     margin: 0;
     padding: 0;
+}
+
+
+.padding-15{
+    padding-left: 15px;
+   
+}
+
+.text-yellow{
+  color: #8d5510;
 }

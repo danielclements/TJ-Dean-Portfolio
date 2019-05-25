@@ -13,7 +13,7 @@
 .navbar-bg {
     background-color: rgba(0, 0, 0, 0.0);
     padding-top: 0;
-    padding-bottom: 0px;
+    padding-bottom: 0;
 }
 
 .navbar-bg.scrolled {
@@ -285,7 +285,7 @@
 }
 
 .header-white {
-    color: #f9f7f7;
+    color: #d4d4d4;
 }
 
 .header-black {
@@ -316,3 +316,28 @@
 .text-yellow {
     color: #8d5510;
 }
+
+
+
+/*------------------------------Media Queries----------------*/
+
+@media  (max-width: 768px){
+    
+    .contact-bg{
+        background-image: linear-gradient(to bottom right, #000000,#2e2d2d);
+    }
+    
+    #form-style{
+        padding: 0;
+        margin-top: 100;
+    }
+    
+    
+    .faq-question{
+        font-size: 1.25rem;
+    }
+    .faq-answer{
+        font-size: 15px;
+    }
+}
+

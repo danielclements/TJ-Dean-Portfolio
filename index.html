@@ -15,9 +15,9 @@
 
 <body>
     <!-------------------------------------------------Nav--------------------------------->
-    <div class="container-fluid navbar-container">
+    <div class="container-fluid navbar-container" >
         <nav class="navbar navbar-expand-lg  navbar-bg">
-            <a class="navbar-brand" href="#"> <img src="assets/images/Logo.png" class="logo" width="30" height="30" alt=""></a>
+            <a class="navbar-brand" href="home-href"> <img src="assets/images/Logo.png" class="logo" width="30" height="30" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-ellipsis-v nav-toggler-button"></i>
             </button>
@@ -25,19 +25,23 @@
                 <ul class=" navbar-nav nav-items">
 
                     <li class="nav-item ">
-                        <a class="nav-link" href="#">Home </a>
+                        <a class="nav-link" href="#home-href">Home </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
+                        <a class="nav-link" href="#portfolio-href">Portfolio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonial-href">Testimonials</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Bio</a>
+                        <a class="nav-link" href="#bio-href">Bio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">FAQ</a>
+                        <a class="nav-link" href="#faq-href">FAQ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact-href">Contact</a>
                     </li>
 
                 </ul>
@@ -47,7 +51,7 @@
     <!--------------------------------------------------/Nav-------------------------------->
 
     <!--------------------------------------------------Landing Page------------------------>
-    <div class="landing-page-background ">
+    <div class="landing-page-background" id="home-href">
         <div class="background-alpha-04 container-fluid">
 
 
@@ -70,7 +74,7 @@
     <!-------------------------------------------------/landing Page------------------------>
 
     <!------------------------------------------------- Portfolio--------------------------->
-    <div class="container-fluid portfolio-bg">
+    <div class="container-fluid portfolio-bg" id="portfolio-href">
         <div class="background-alpha-02">
             <h3 class="header header-black">Portfolio</h3>
             <div class="row">
@@ -137,7 +141,7 @@
 
     <!----------------------------------------------------Testimonials-------------------------->
 
-    <div class="container-fluid testimonials-bg">
+    <div class="container-fluid testimonials-bg" id="testimonial-href">
         <h3 class="header header-black">Testimonials</h3>
         <div class="container-fluid Testimonial-wrapper">
             <div class="row">
@@ -158,8 +162,28 @@
                     <h5>-Sebastian Scholten</h5>
                 </div>
             </div>
-            
+
             <hr class="block-divider-faq col-sm-10 offset-sm-1">
+
+            <div class="row">
+                <div class="col-8 offset-1">“Classified advertising is a form of advertising that is particularly common in newspapers and other periodicals. A classified is usually textually based and can consist of as little as the type of item being sold, and a contact number
+                    to call for more information. “
+                    <h5>-Sebastian Scholten</h5>
+                </div>
+                <div class="col-2"><img class="testimonial-img" src="/assets/images/testimonial-images/img-Rob_BW.jpg"></img>
+                </div>
+            </div>
+
+            <hr class="block-divider-faq col-sm-10 offset-sm-1">
+
+            <div class="row">
+                <div class="col-2 offset-1"><img class="testimonial-img" src="/assets/images/testimonial-images/img-Rob_BW.jpg"></img>
+                </div>
+                <div class="col-8">“Classified advertising is a form of advertising that is particularly common in newspapers and other periodicals. A classified is usually textually based and can consist of as little as the type of item being sold, and a contact number
+                    to call for more information. “
+                    <h5>-Sebastian Scholten</h5>
+                </div>
+            </div>
 
         </div>
     </div>
@@ -169,14 +193,14 @@
 
     <!-----------------------------------------------------Bio---------------------------------->
 
-    <div class="container-fluid bio-container">
+    <div class="container-fluid bio-container" id="bio-href">
         <div class="bio-header container-fluid">
             <h3 class="header header-black">Bio</h3>
             <div class="row">
-                <div class="col-sm-10 offset-sm-1  col-lg-3 offset-lg-0 my-3">
+                <div class="col-sm-10 offset-sm-1  col-lg-4 offset-lg-0 my-3">
                     <img src="/assets/images/tj-profile-pic.png" id="tj-bio-pic"></img>
                 </div>
-                <div class="col-sm-10 offset-sm-1  col-lg-9 offset-lg-0 my-3">
+                <div class="col-sm-10 offset-sm-1  col-lg-8 offset-lg-0 my-3 bio-text">
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
                         nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
                         blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem
@@ -199,7 +223,7 @@
 
     <!-----------------------------------------------------FAQ----------------------------------->
 
-    <div class="faq-bg container-fluid">
+    <div class="faq-bg container-fluid"id="faq-href">
         <!--<div class="background-alpha-02">-->
         <h3 class="header header-black">Frequently Asked Questions (FAQ)</h3>
 
@@ -247,7 +271,7 @@
 
     <!-----------------------------------------------------Contact Page-------------------------->
 
-    <div class="contact-bg container-fluid">
+    <div class="contact-bg container-fluid" id="contact-href">
         <h3 class="header header-white">Contact</h3>
 
 
@@ -348,7 +372,18 @@
             }, false);
 
         })();
+
+$(function() {
+            $(document).scroll(function() {
+                var $nav = $(".navbar-bg");
+                $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+            });
+        });
+
+
     </script>
+    
+   
     <!-----------------------/Form JS-------------------->
 </body>
 

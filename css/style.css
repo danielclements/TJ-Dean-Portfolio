@@ -1,28 +1,39 @@
 /*---------------------NavBar------------------------------*/
 
 .navbar-container {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     padding-left: 0;
     padding-right: 0;
-    z-index: 1;
+    z-index: 4;
 }
 
+
 .navbar-bg {
-    background-color: rgba(0, 0, 0, 0.3)
+    background-color: rgba(0, 0, 0, 0.0);
+    padding-top: 0;
+    padding-bottom: 0px;
+}
+
+.navbar-bg.scrolled {
+    background-color: #0f0f0f !important;
+    transition: background-color 200ms linear;
+
 }
 
 .nav-item a {
     text-decoration: none;
     color: #f2f2f2;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .nav-toggler-button {
     color: #f2f2f2;
     font-size: 27px;
 }
+
+
 
 /*---------------------/NavBar-----------------------------*/
 
@@ -53,10 +64,8 @@
 }
 
 .logo {
-    height: 50px;
+    height: 30px;
     width: auto;
-    padding-left: 10px;
-    padding-top: 10px;
 }
 
 .headers-wrapper {
@@ -123,19 +132,18 @@
 
 /*------------------------/Portfolio--------------------------------*/
 
-
 /*------------------------Testimonials------------------------------*/
 
-.testimonials-bg{
+.testimonials-bg {
     background-color: #E6E6E6;
     margin: 0;
-    padding:0;
+    padding: 0;
 }
 
-.testimonial-img{
+.testimonial-img {
     border-radius: 50%;
     padding: 0;
-    border:solid 2px #3a3a3a;
+    border: solid 2px #3a3a3a;
     height: 160px;
     width: 150px;
     position: relative;
@@ -147,8 +155,7 @@
 /*------------------------Bio---------------------------------*/
 
 .bio-container {
-
-    background-image: linear-gradient(to bottom right, #a8253a, #dd929e);
+    background-image: linear-gradient(to bottom right, #0f0f0f, #a8253a);
 
 }
 
@@ -157,6 +164,10 @@
     width: 100%;
     position: relative;
     margin-bottom: 15px;
+}
+
+.bio-text{
+   color: #d4d4d4;
 }
 
 /*------------------------/Bio---------------------------------*/
@@ -189,7 +200,7 @@
     color: Black;
     border-width: 0px 0px 0px 4px;
     border-style: solid;
-    border-color: #e82c2c;
+    border-color: #a8253a;
     margin: 0;
     font-weight: 400;
 }
@@ -206,7 +217,7 @@
 
 
 .span-question {
-    color: #e82c2c;
+    color: #a8253a;
     font-size: 40px;
     padding-right: 16px;
     padding-left: 5px;
@@ -238,8 +249,8 @@
 
 /*-----------------------------Contact-------------------*/
 
-.contact-bg{
-    background: url(/assets/images/contact-gb.png) no-repeat center center fixed ;
+.contact-bg {
+    background: url(/assets/images/contact-gb.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -248,19 +259,19 @@
     position: relative;
 }
 
-#form-style{
+#form-style {
     margin-top: 160px;
     padding-left: 0;
     padding-right: 50px;
 }
 
-.form-element-style{
+.form-element-style {
     background-color: #e8e6e6;
-        border: solid #8d5510 2px;
+    border: solid #8d5510 2px;
 }
 
 #exampleFormControlFile1 {
-    padding:0
+    padding: 0
 }
 
 
@@ -268,18 +279,19 @@
 
 /*-----------------------------Misc----------------------*/
 
-.header{
-    padding-top: 15px;
-    text-align:center;
-    }
-
-.header-white{
-    color:#f9f7f7;
+.header {
+    padding-top: 10px;
+    text-align: center;
 }
 
-.header-black{
+.header-white {
+    color: #f9f7f7;
+}
+
+.header-black {
     color: #303030;
 }
+
 .float-right {
     float: right;
 }
@@ -296,11 +308,11 @@
 }
 
 
-.padding-15{
+.padding-15 {
     padding-left: 15px;
-   
+
 }
 
-.text-yellow{
-  color: #8d5510;
+.text-yellow {
+    color: #8d5510;
 }

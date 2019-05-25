@@ -274,9 +274,28 @@
     padding: 0
 }
 
+/*-----------------------------------Locatio & Hours---------------------*/
 
 
+.location-bg{
+        background-color: #0c0c0c;
+        height: 100vh;
+}
 
+.maps{
+    position: relative;
+    height: 100%;
+    width: 100%
+}
+
+.location-wrapper{
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.location-text{
+    color: #8d5510;
+}
 /*-----------------------------Misc----------------------*/
 
 .header {

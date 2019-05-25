@@ -15,7 +15,7 @@
 
 <body>
     <!-------------------------------------------------Nav--------------------------------->
-    <div class="container-fluid navbar-container" >
+    <div class="container-fluid navbar-container">
         <nav class="navbar navbar-expand-lg  navbar-bg container-fluid">
             <a class="navbar-brand" href="#home-href"> <img src="assets/images/Logo.png" class="logo" width="30" height="30" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -190,6 +190,7 @@
     </div>
 
     </div>
+    <!----------------------------------------------------/Testimonials------------------------->
 
 
     <!-----------------------------------------------------Bio---------------------------------->
@@ -198,10 +199,10 @@
         <div class="bio-header container-fluid">
             <h3 class="header header-white">Bio</h3>
             <div class="row">
-                <div class="col-sm-10 offset-sm-1  col-lg-4 offset-lg-0 my-3">
+                <div class="col-sm-10 offset-sm-1  col-lg-5 offset-lg-0 my-3">
                     <img src="/assets/images/tj-profile-pic.png" id="tj-bio-pic"></img>
                 </div>
-                <div class="col-sm-10 offset-sm-1  col-lg-8 offset-lg-0 my-3 bio-text">
+                <div class="col-sm-10 offset-sm-1  col-lg-7 offset-lg-0 my-3 bio-text">
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
                         nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
                         blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem
@@ -220,7 +221,7 @@
 
     <!-----------------------------------------------------FAQ----------------------------------->
 
-    <div class="faq-bg container-fluid"id="faq-href">
+    <div class="faq-bg container-fluid" id="faq-href">
         <!--<div class="background-alpha-02">-->
         <h3 class="header header-black">Frequently Asked Questions (FAQ)</h3>
 
@@ -340,6 +341,32 @@
             </div>
         </div>
     </div>
+    <!-----------------------------------------------------/Contact Page-------------------------->
+
+
+
+    <!-----------------------------------------------------Location & Hours ---------------------->
+
+    <div class="contianer-fluid location-bg">
+        <div class="location-wrapper">
+            <div class="row">
+                <div class="offset-1 col-sm-10 col-lg-5">
+                    <h3 class="header-location header-white">Location & Hours</h3>
+                    <p class="location-text">Only 200 Meters from the Cabo Roig Strip!</p>
+                    <p class="location-text">077 Brown Creek Apt. 643<br>Orlandostad<br> 03189 Spain
+                    </p>
+                    <p class="location-text">Mon - Fri: 10-5<br> Sat - Sun: Closed</p>
+                    <p class="location-text">T.622234983<br> E.jonatan.mante@isaac.co.uk
+                    </p>
+                </div>
+                <div class=" col-sm-10 offset-sm-1 offset-lg-0 col-lg-5"><iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9100.180458801151!2d-0.7452468284670399!3d37.914280998021994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd63078ee83c4eaf%3A0x2ae4e86fe1a9953b!2sBAGWA+Tattoo!5e0!3m2!1sen!2suk!4v1558807110285!5m2!1sen!2suk"
+                        width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------------------------------------------/Location & Hours --------------------->
+
 
     <!-----------------------------------------------------Jscript------------------------------->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -370,17 +397,15 @@
 
         })();
 
-$(function() {
+        $(function() {
             $(document).scroll(function() {
                 var $nav = $(".navbar-bg");
                 $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
             });
         });
-
-
     </script>
-    
-   
+
+
     <!-----------------------/Form JS-------------------->
 </body>
 

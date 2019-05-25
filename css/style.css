@@ -278,7 +278,7 @@
 
 
 .location-bg{
-        background-color: #0c0c0c;
+        background-color: #151414;
         height: 100vh;
 }
 
@@ -289,7 +289,7 @@
 }
 
 .location-wrapper{
-    padding-top: 45px;
+    padding-top: 165px;
     padding-bottom: 45px;
 }
 
@@ -358,5 +358,10 @@
     .faq-answer{
         font-size: 15px;
     }
+    
+    .location-wrapper{
+    padding-top: 100px;
+    padding-bottom:10 ;
+}
 }
 

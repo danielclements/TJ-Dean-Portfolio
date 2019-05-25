@@ -11,3 +11,7 @@ https://www.nintendo.co.uk/Nintendo-Switch/Nintendo-Switch-Online/FAQ-1374625.ht
 
 Form taken from bootstrap documentation - Bug email allowing submit even when incorrected email is submitted 
 also the choose file button dissapears on mobile view 
+
+
+
+https://stackoverflow.com/questions/23706003/changing-nav-bar-color-after-scrolling used to change the bg color of the navbar when scrolled

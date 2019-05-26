@@ -154,21 +154,37 @@
 
 /*------------------------Bio---------------------------------*/
 
-.bio-container {
-    background-image: linear-gradient(to bottom right, #0f0f0f, #a8253a);
-
+.bio-bg {
+    background-image: linear-gradient(to bottom right, #161019, #4a1c24);
+    padding: 0;
+    height: auto;
 }
 
 #tj-bio-pic {
-    height: 100%;
-    width: 100%;
+
     position: relative;
     margin-bottom: 15px;
+    border-radius: 50%;
+    max-width: 480px;
+    max-height: 490px;
+}
+
+#tj-profile-pic-container {
+    text-align: center;
 }
 
 .bio-text {
     color: #d4d4d4;
     font-family: 'PT Serif', serif;
+
+}
+
+
+.header-social {
+    text-align: center;
+    padding-top: 5px;
+    font-family: 'Crimson Text', serif;
+    text-decoration: underline;
 
 }
 
@@ -283,6 +299,7 @@
 
 .location-bg {
     background-color: #151414;
+    height: auto;
 }
 
 .maps {
@@ -294,7 +311,7 @@
 }
 
 .location-wrapper {
-    margin-top: 0px;
+    margin-top: 60px;
     padding-top: 25px;
 }
 
@@ -367,9 +384,7 @@
 
 @media (max-width: 768px) {
 
-    .contact-bg {
-        background-image: linear-gradient(to bottom right, #000000, #2e2d2d);
-    }
+
 
     #form-style {
         padding: 0;
@@ -389,11 +404,35 @@
         padding-bottom: 10;
     }
 
-    #tj-bio-pic {
-        border-radius: 50%;
+    .location-bg {
+        height: auto;
     }
 
+  
 }
+
+
+
+
+
+@media (min-width: 992px) {
+
+    .bio-bg {
+        background: url(/assets/images/bio-v2-final.png) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100vh
+    }
+
+      .location-bg {
+        height: 95vh;
+    }
+
+
+}
+
 
 
 

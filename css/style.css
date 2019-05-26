@@ -167,6 +167,8 @@
     border-radius: 50%;
     max-width: 480px;
     max-height: 490px;
+    height: 100%;
+    width: 100%;
 }
 
 #tj-profile-pic-container {
@@ -176,7 +178,7 @@
 .bio-text {
     color: #d4d4d4;
     font-family: 'PT Serif', serif;
-
+    margin-top: 130px;
 }
 
 
@@ -408,7 +410,7 @@
         height: auto;
     }
 
-  
+
 }
 
 
@@ -426,10 +428,9 @@
         height: 100vh
     }
 
-      .location-bg {
+    .location-bg {
         height: 95vh;
     }
-
 
 }
 

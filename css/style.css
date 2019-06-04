@@ -188,7 +188,7 @@
     border: solid 1px black;
     position: relative;
     border-radius: 50%;
-    margin-top: 30px;
+    margin-top: 40px;
     max-width: 480px;
     max-height: 490px;
     height: 100%;
@@ -421,6 +421,14 @@
 
 /*------------------------------Media Queries----------------*/
 
+@media (max-width: 375px) {
+    .navbar-bg {
+    background-color: rgba(0, 0, 0, 1.0);
+    }
+}
+
+
+
 @media (max-width: 768px) {
 
 
@@ -468,6 +476,8 @@
     .location-bg {
         height: 95vh;
     }
+    
+ 
 
 }
 

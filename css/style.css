@@ -111,8 +111,8 @@
 
 .button-header {
     background-color: rgba(0, 0, 0, 0.7);
-    color:  #bcbcbc;
-    border-color:  #bcbcbc;
+    color: #bcbcbc;
+    border-color: #bcbcbc;
 }
 
 
@@ -423,7 +423,11 @@
 
 @media (max-width: 375px) {
     .navbar-bg {
-    background-color: rgba(0, 0, 0, 1.0);
+        background-color: rgba(0, 0, 0, 1.0);
+    }
+
+    #form-style {
+        margin-top: 50px;
     }
 }
 
@@ -447,7 +451,7 @@
     }
 
     .location-wrapper {
-        padding-top: 100px;
+        padding-top: 0px;
         padding-bottom: 10;
     }
 
@@ -476,8 +480,8 @@
     .location-bg {
         height: 95vh;
     }
-    
- 
+
+
 
 }
 

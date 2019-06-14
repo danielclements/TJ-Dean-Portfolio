@@ -26,7 +26,7 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 - FAQ section: On this page you will find a list of frequently asked questions. My goal with this page was to compile all the FAQs a tattoo artist would get, the goal is to educate the user straight away instead of having them wait for Tj to reply to a email, with this it stop the user losing interest.  
 
-- Contact: This page was built so the user can ask any questions that may not be on the FAQ page, This fully functional page was built using bootstrap and also allows the user to upload a file if they want to reference a specific design when enquiring about a Tattoo.  
+- Contact: This page was built so the user can ask any questions that may not be on the FAQ page, This fully functional form was built using bootstrap and also allows the user to upload a file if they want to reference a specific design when enquiring about a Tattoo.  
 
 - Location/Hours Section: With this page the user will be able to find where the tattoo studio is located and  and what the opening hours are along with further contact details.  
 

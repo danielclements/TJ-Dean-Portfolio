@@ -1,13 +1,13 @@
 # TJ Dean Tattoo Portfolio
 
-This project came to light as a good friend of mine is an apprentice tattoo artist and he wanted a way to show the world his work. 
+This project came to light as a good friend of mine is an apprentice tattoo artist and he wanted a way to show the world his work.   
 I wanted to build him a webpage where not only could he display his art work, but a place where people can find out all the information needed when choosing a new tattoo artist. 
-As Tj progresses so will the web page, In the future people will be able to see his progression through the portofolio setion.
+As Tj progresses so will the web page, In the future people will be able to see his progression through the portfolio section.
 
  
 ## UX
  
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+For this project I wanted to create a sight that was easy to navigate and had all the information no more than 2 clicks away, for that reason I decided to go for a single page design broken in to different sections as I believe this also creates a smoother experience for the user.  
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 - As a user type, I want to perform an action, so that I can achieve a goal.
@@ -16,8 +16,22 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
+- Landing section: With this page the goal was to create a minimalistic landing that on first glance a user would be able to get a general feel for the webpage. With the help of the nav bar located at the top of the page the user would be able to navigate to the desired page with out having to scroll through the entire page.  
+
+- Portfolio Section: The goal with this page was to display all of Tj's art work in one place, With the use of FancyBox this allowed me to create a clean and easy to navigate image gallery.  
+
+- Testimonial Section : This page has a simple goal in mind, To display the comments left by previous clients. Not only does this build credibility but also reassures the user that Tj has the skills needed to give them the tattoo experience they deserve.  
+
+- Bio Section: With this page I wanted the user to be able to familiarize them selves with Tj and a little bit about him and his background. Added social media links so the user can connect with him online.  
+
+- FAQ section: On this page you will find a list of frequently asked questions. My goal with this page was to compile all the FAQs a tattoo artist would get, the goal is to educate the user straight away instead of having them wait for Tj to reply to a email, with this it stop the user losing interest.  
+
+- Contact: This page was built so the user can ask any questions that may not be on the FAQ page, This fully functional page was built using bootstrap and also allows the user to upload a file if they want to reference a specific design when enquiring about a Tattoo.  
+
+- Location/Hours Section: With this page the user will be able to find where the tattoo studio is located and  and what the opening hours are along with further contact details.  
+
+
+
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
 - ...

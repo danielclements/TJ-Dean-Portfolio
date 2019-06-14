@@ -15,3 +15,6 @@ also the choose file button dissapears on mobile view
 
 
 https://stackoverflow.com/questions/23706003/changing-nav-bar-color-after-scrolling used to change the bg color of the navbar when scrolled
+
+
+Live version of the site : https://danielclements.github.io/milestone-1-project-v2/

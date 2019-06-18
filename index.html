@@ -14,6 +14,7 @@
 </head>
 
 <body>
+    
     <!-- Nav--------------------------------->
     <header class="container-fluid navbar-container">
         <nav class="navbar navbar-expand-lg  navbar-bg container-fluid">
@@ -80,10 +81,10 @@
         </section>
 
         <!-- Portfolio--------------------------->
-        <section class="container-fluid portfolio-bg" id="portfolio-href">
+        <section class="container-fluid portfolio-bg">
             <div class="background-alpha-02">
-                <h2 class="header header-black">Portfolio</h2>
-                <h3 class="sub-header-portfolio"
+                <h2 class="header header-black" id="portfolio-href">Portfolio</h2>
+                <h4 class="sub-header-portfolio header-black" >Check out my most recent work !</h4>
                 <div class="row">
                     <div class="col-sm-10 offset-sm-1">
                         <div class="imglist">
@@ -377,7 +378,7 @@
                         </div>
 
                         <div class="form-group  padding-15">
-                            <label class="text-yellow" for="exampleFormControlFile1">Upload File</label> <br>
+                            <label class="text-yellow" for="exampleFormControlFile1">Do you have a design in mind ?</label> <br>
                             <input type="file" id="selectedFile" style="display: none;" />
                             <input class="btn form-element-style" type="button" value="Upload File" onclick="document.getElementById('selectedFile').click();" />
                         </div>
@@ -458,55 +459,38 @@
                 <div class="col-10 offset-1 col-md-4 offset-md-0">
                     <div class="tj-footer">
 
-                        <h5>Portfolio Built For:</h5>
-                        <h6>-Tj Dean</h6>
+                     <h5>Social Links:</h5>
+                     <ul class="list-inline social-links">
 
-                        <ul class="list-inline social-links">
-
-                            <li class="list-inline-item">
-                                <a target="_blank" href="#">
-                            <i class="fab fa-facebook" aria-hidden="true"></i>
+                         <li class="list-inline-item">
+                            <a target="_blank" href="#">
+                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
-                        </a>
-                            </li>
+                            </a>
+                        </li>
 
-                            <li class="list-inline-item">
-                                <a target="_blank" href="#">
-                            <i class="fab fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span>
-                        </a>
-                            </li>
+                         <li class="list-inline-item">
+                            <a target="_blank" href="#">
+                                <i class="fab fa-instagram" aria-hidden="true"></i>
+                                <span class="sr-only">Instagram</span>
+                            </a>
+                           </li>
 
                         </ul>
                     </div>
                 </div>
 
-                <div class="col-10 offset-1 col-md-4 offset-md-0 logo-wrapper-footer" style="text-align:center;">
-                    <a href="#home-href"> <img src="assets/images/Logo.png" width="45" height="55" alt=""></a>
-                </div>
+                <!--<div class="col-10 offset-1 col-md-4 offset-md-0 logo-wrapper-footer" style="text-align:center;">-->
+                <!--    <a href="#home-href"> <img src="assets/images/Logo.png" width="45" height="55" alt=""></a>-->
+                <!--</div>-->
 
 
                 <div class="col-10 offset-1 col-md-4 offset-md-0 container-fluid">
                     <div class="daniel-footer">
 
-                        <h5>Designed & Built By:</h5>
-                        <h6>-Daniel Clements</h6>
+                        <h5>Designed By:</h5>
+                       <a href="" <h6>-Daniel Clements</h6>
 
-                        <ul class="list-inline social-links">
-
-                            <li class="list-inline-item">
-                                <a target="_blank" href="#">
-                            <i class="fab fa-facebook" aria-hidden="true"></i>
-                            <span class="sr-only">Facebook</span>
-                        </a>
-                            </li>
-
-                            <li class="list-inline-item">
-                                <a target="_blank" href="#">
-                            <i class="fab fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span>
-                        </a>
-                            </li>
 
                         </ul>
                     </div>
@@ -560,3 +544,4 @@
 </body>
 
 </html>
+

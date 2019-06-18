@@ -179,6 +179,14 @@
     border: solid 1px black;
 }
 
+.imglist a img{
+     transition: all .5s;
+}
+
+.imglist a img:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px #9e0f0f;
+}
 
 
 /*------------------------/Portfolio--------------------------------*/
@@ -411,12 +419,12 @@
 }
 
 .social-links li a i {
-    width: 32px;
-    height: 32px;
+    width: 38px;
+    height: 38px;
+    line-height: 15px;
+    font-size: 20px;
     padding: 12px 0;
     border-radius: 50%;
-    line-height: 7px;
-    font-size: 13px;
     text-align: center;
     color: #fafafa;
     background-color: #8f8f8f;
@@ -432,9 +440,7 @@
 
 
 .logo-wrapper-footer {
-    /*text-align: center;*/
     display: flex;
-    /*vertical-align: middle;*/
     justify-content: center;
     align-items: center;
 }
@@ -453,7 +459,7 @@
 /*-----------------------------Misc----------------------*/
 
 .header {
-    padding-top: 10px;
+    padding-top: 6px;
     text-align: center;
     font-family: 'Crimson Text', serif;
     text-decoration: underline;
@@ -467,6 +473,11 @@
     color: #303030;
 }
 
+.sub-header-portfolio{
+    padding-top: 5px;
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+}
 .float-right {
     float: right;
 }

@@ -354,9 +354,9 @@
 }
 
 #form-style {
-    margin-top: 115px;
+    margin-top: 45px;
     padding-left: 0;
-    padding-right: 50px;
+    padding-right: 110px;
 }
 
 .form-element-style {
@@ -368,6 +368,15 @@
     padding: 0
 }
 
+.contact-details{
+    display: inline;
+    color: #8d5510;
+    padding-left: 8px;
+}
+
+#span-white{
+    color: #d4d4d4
+}
 /*-----------------------------------Locatio & Hours---------------------*/
 
 .location-bg {

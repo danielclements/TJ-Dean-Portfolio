@@ -223,9 +223,9 @@
     border: solid 1px black;
     position: relative;
     border-radius: 50%;
-    margin-top: 40px;
-    max-width: 480px;
-    max-height: 490px;
+    margin-top: 20px;
+    max-width: 320px;
+    max-height: 320px;
     height: 100%;
     width: 100%;
 }
@@ -376,6 +376,11 @@
 
 #span-white{
     color: #d4d4d4
+}
+
+.email-details{
+    float:left;
+    padding-right: 8px;
 }
 /*-----------------------------------Locatio & Hours---------------------*/
 
@@ -529,6 +534,8 @@
     #form-style {
         margin-top: 50px;
     }
+    
+   
 }
 
 
@@ -558,6 +565,10 @@
     .location-bg {
         height: auto;
     }
+    
+    .bio-text {
+        margin-top: 15px
+    }
 
 
 }
@@ -577,14 +588,21 @@
         height: 100vh
     }
 
-    /*.location-bg {*/
-    /*    height: 100vh;*/
-    /*}*/
+   .email-details{
+       float:right;
+   }
 }
 
 
 
-
+@media (max-height:720px) {
+     .contact-bg {
+     height: auto;
+     padding-bottom: 40px;
+     }
+     
+     
+}
 
 
 
@@ -592,7 +610,7 @@
 
 
     .contact-bg {
-        height: 35vh;
+        height: auto;
         background-image: linear-gradient(to bottom right, #000000, #2e2d2d);
 
     }

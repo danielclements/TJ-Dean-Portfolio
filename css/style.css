@@ -1,4 +1,4 @@
-/*---------------------NavBar------------------------------*/
+/*-- NavBar------------------------------*/
 
 .navbar-container {
     position: fixed;
@@ -40,9 +40,9 @@
 
 
 
-/*---------------------/NavBar-----------------------------*/
 
-/*------------------------Landing Page---------------------------------*/
+
+/*-- Landing Page---------------------------------*/
 
 .landing-page-background {
     background: url(../assets/images/landing-bg.png) no-repeat center center;
@@ -150,9 +150,8 @@
     color: #9e0f0f;
 }
 
-/*------------------------/Landing Page--------------------------------*/
 
-/*------------------------Portfolio--------------------------------*/
+/*-- Portfolio--------------------------------*/
 
 .portfolio-bg {
     background: url(../assets/images/portfolio-bg.jpg) no-repeat center center fixed;
@@ -189,9 +188,8 @@
 }
 
 
-/*------------------------/Portfolio--------------------------------*/
 
-/*------------------------Testimonials------------------------------*/
+/*-- Testimonials------------------------------*/
 
 .testimonials-bg {
     background-color: #E6E6E6;
@@ -211,7 +209,7 @@
 
 
 
-/*------------------------Bio---------------------------------*/
+/*-- Bio---------------------------------*/
 
 .bio-bg {
     background-image: linear-gradient(to bottom right, #161019, #4a1c24);
@@ -261,9 +259,8 @@
     text-align: center;
 }
 
-/*------------------------/Bio---------------------------------*/
 
-/*-----------------------------FAQ-----------------------*/
+/*-- FAQ-----------------------*/
 
 .faq-container {
     text-align: center;
@@ -276,6 +273,9 @@
 .faq-bg {
     background-color: #f9f7f7;
     margin: 0;
+    -webkit-box-shadow: inset 0px 0px 25px 3px rgba(0,0,0,0.57);
+    -moz-box-shadow: inset 0px 0px 25px 3px rgba(0,0,0,0.57);
+    box-shadow: inset 0px 0px 25px 3px rgba(0,0,0,0.57);
 }
 
 .question-container {
@@ -339,9 +339,8 @@
 }
 
 
-/*-----------------------------/FAQ----------------------*/
 
-/*-----------------------------Contact-------------------*/
+/*-- Contact-------------------*/
 
 .contact-bg {
     background: url(../assets/images/contact-gb.png) no-repeat center center fixed;
@@ -382,7 +381,7 @@
     float:left;
     padding-right: 8px;
 }
-/*-----------------------------------Locatio & Hours---------------------*/
+/*-- Locatio & Hours---------------------*/
 
 .location-bg {
     background-color: #151414;
@@ -425,11 +424,15 @@
 }
 
 
-/*----------------------------Footer--------------------*/
+/*-- Footer--------------------*/
 
 .footer-bg {
-    background-color: #151414;
-    color: #c5c5c5;
+    background-color:#ffffff;
+    color: #404040;
+    -webkit-box-shadow: inset 0px 24px 35px -18px rgba(0,0,0,0.57);
+    -moz-box-shadow: inset 0px 24px 35px -18px rgba(0,0,0,0.57);
+    box-shadow: inset 0px 24px 35px -18px rgba(0,0,0,0.57);
+
 }
 
 .social-links li a i {
@@ -441,7 +444,7 @@
     border-radius: 50%;
     text-align: center;
     color: #fafafa;
-    background-color: #8f8f8f;
+    background-color: #404040;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -472,10 +475,10 @@
 
 .daniel-instagram-link{
     text-decoration: none;
-    color:#f52d2d;
+    color:#a8253a;
 }
 
-/*-----------------------------Misc----------------------*/
+/*-- Misc----------------------*/
 
 .header {
     padding-top: 6px;
@@ -522,9 +525,13 @@
     color: #8d5510;
 }
 
+.vertical-divider{
+    width: 3px;
+    height: 65px;
+    background-color: #A2A2A2
+}
 
-
-/*------------------------------Media Queries----------------*/
+/*-- Media Queries----------------*/
 
 @media (max-width: 375px) {
     .navbar-bg {

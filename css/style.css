@@ -389,7 +389,7 @@
 }
 
 .location-text {
-    color: #a8253a;
+    color: #f52d2d;
     font-family: 'PT Serif', serif;
 }
 
@@ -435,7 +435,7 @@
 }
 
 .social-links li a i:hover {
-    background-color: #a8253a;
+    background-color: #f52d2d;
 }
 
 
@@ -454,6 +454,11 @@
 .tj-footer {
     position: relative;
     float: left;
+}
+
+.daniel-instagram-link{
+    text-decoration: none;
+    color:#f52d2d;
 }
 
 /*-----------------------------Misc----------------------*/

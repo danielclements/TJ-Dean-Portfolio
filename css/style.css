@@ -307,23 +307,34 @@
 }
 
 
-.span-question {
+.faq-question:before{
+    position: absolute;
+    content: "Q.";
     color: #a8253a;
     font-size: 40px;
     padding-right: 16px;
     padding-left: 5px;
     font-weight: 300;
-    display: inline;
-    position: relative;
 }
 
+.q-text{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 22px;
+    padding-left: 55px;
+    padding-top: 20px;
+}
 .span-answer {
     color: #bcbcbc;
     font-size: 40px;
     padding-right: 16px;
     padding-left: 5px;
-    display: inline;
-    position: relative;
+    display: inline-block;
+}
+
+.a-text{
+    font-size: 18px;
+    font-weight: 300;
 }
 
 

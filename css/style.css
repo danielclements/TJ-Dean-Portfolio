@@ -189,25 +189,47 @@
 
 
 
-/*-- Testimonials------------------------------*/
+/*-- Reviews------------------------------*/
 
-.testimonials-bg {
+.reviews-bg {
     background-color: #E6E6E6;
     margin: 0;
     padding: 0;
+    height:100vh;
 }
 
 .testimonial-img {
     border-radius: 50%;
     padding: 0;
     border: solid 2px #3a3a3a;
-    height: 160px;
-    width: 150px;
-    position: relative;
+    height: 80px;
+    width: 80px;
 }
 
 
+.reviews-wrapper{
+    padding-top: 45px;
+}
 
+.stars-icons{
+    font-size: 20px;
+    color: #ffd800;
+    display:block;
+
+}
+
+.review-name{
+    color:black;
+}
+
+.reviews-name{
+     display: inline-block;
+    padding-left: 20px;
+}
+
+.review-row{
+    margin-bottom: 25px;
+}
 
 /*-- Bio---------------------------------*/
 
@@ -253,6 +275,19 @@
     margin-top: 15px;
     margin-bottom: 35px;
     color: #d4d4d4;
+    transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+}
+
+.social-icons:hover{
+    color: #e89e4e;
+    transform: scale(1.3);
+}
+
+#facebook-bio:hover{
+    color: #104dc1;
 }
 
 .bio-href {

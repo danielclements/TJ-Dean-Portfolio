@@ -597,6 +597,8 @@
         margin-top: 50px;
     }
     
+    
+   
    
 }
 
@@ -632,6 +634,9 @@
         margin-top: 15px
     }
 
+    .review-headline{
+        padding:0;
+    }
 }
 
 

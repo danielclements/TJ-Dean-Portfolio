@@ -195,7 +195,7 @@
     background-color: #E6E6E6;
     margin: 0;
     padding: 0;
-    height:100vh;
+    height: 100%;
 }
 
 .testimonial-img {
@@ -209,6 +209,7 @@
 
 .reviews-wrapper{
     padding-top: 45px;
+
 }
 
 .stars-icons{
@@ -227,10 +228,16 @@
     padding-left: 20px;
 }
 
-.review-row{
-    margin-bottom: 25px;
+
+.person-review{
+    padding-bottom: 50px;
 }
 
+.review-headline{
+    display:inline-block;
+    color:black;
+    padding-left: 25px;
+}
 /*-- Bio---------------------------------*/
 
 .bio-bg {
@@ -624,7 +631,6 @@
     .bio-text {
         margin-top: 15px
     }
-
 
 }
 

@@ -52,6 +52,7 @@
     background-size: cover;
     height: 100vh;
     position: relative;
+    min-height: 500px;
 
 }
 
@@ -64,7 +65,7 @@
     height: 100vh;
     padding: 0px;
     position: relative;
-
+    min-height: 500px;
 
 }
 

@@ -148,4 +148,6 @@ By using the file name `index.html` github pages knows what file to display as t
 - Code for color changing Navbar was taken from [Stack Overflow](https://stackoverflow.com/questions/23706003/changing-nav-bar-color-after-scrolling).
 
 
+Addresses, emails and phone numbers are all fake! 
+
 Live version of the site : https://danielclements.github.io/TJ-Dean-Portfolio/

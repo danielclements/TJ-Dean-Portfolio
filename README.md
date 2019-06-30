@@ -9,11 +9,12 @@ As Tj progresses so will the web page, In the future people will be able to see 
  
 For this project I wanted to create a sight that was easy to navigate and had all the information no more than 2 clicks away, for that reason I decided to go for a single page design broken in to different sections as I believe this also creates a smoother experience for the user.  
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
-/
+- As someone who wants to get a tattoo, I want to be able to view the tattoo artists previous work and if I like what I see I would want a way to contact him so that I can schedule a appointment.
+
+
+[Wireframes / Mockups!](https://github.com/danielclements/TJ-Dean-Portfolio/tree/master/Wireframes)
+
 ## Features
 
 - Landing section: With this page the goal was to create a minimalistic landing that on first glance a user would be able to get a general feel for the webpage. With the help of the nav bar located at the top of the page the user would be able to navigate to the desired page with out having to scroll through the entire page.  
@@ -28,95 +29,123 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 - Contact: This page was built so the user can ask any questions that may not be on the FAQ page, This fully functional form was built using bootstrap and also allows the user to upload a file if they want to reference a specific design when enquiring about a Tattoo.  
 
-- Location/Hours Section: With this page the user will be able to find where the tattoo studio is located and  and what the opening hours are along with further contact details.  
+- Location/Hours Section: With this page the user will be able to find where the tattoo studio is located and what the opening hours are along with further contact details.  
 
 
 
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
+- Image Gallery - Fully functional image gallery using Fancybox by Fancyapps.    
+- Form Validation - Form that allows the user to input details and upload files to ask more specific questions. Also uses bootstraps code to validate the form for any potential errors.
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
+
+- smooth scroll: yet to add a smooth scroll function when pressing any buttons / nav links.
+- Contact form: Need to enable data from the form to be sent to the tattoo artist.
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+- [HTML 5](https://en.wikipedia.org/wiki/HTML5)
+    - The project uses **HTML 5** to write the front end of the website.
+
+- [CSS 3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+    - This project uses **CSS 3** to style the front end of the website.
 
 - [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+    - The project uses **JQuery** to change the navbar opacity at a certain scroll point, and also validates the form for any user errors.
+
+- [Bootstrap 4](https://getbootstrap.com)
+    - This project uses **Bootstrap** to improve scaling to mobile and to add the contact form.
+
+- [Sketch](https://www.sketch.com/)
+    - This project uses **Sketch** to create mockups / wireframes, also used to create the background for the Contact page.
+    
 
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+### Browsers used for testing:
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+- [Google Chrome](https://www.google.com/chrome/)
+- [Firefox](https://www.mozilla.org/en-GB/firefox/new/)
+- [Safari](https://www.apple.com/uk/safari/)
+- [Microsoft Edge](https://www.microsoft.com/en-gb/windows/microsoft-edge)
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+### Devices used for testing:
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+- MacBook Pro 13"
+- Office PC with 28" monitor 
+- Oneplus 6T
+- Samsung Galaxy Note 9
+- Samsung S6
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+### Feature testing:
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+1. Portfolio Gallery:
+    1. Go to the "Portfolio" section. 
+    2. Click on any image.
+    3. Uses the arrows to navigate between images.
+    4. Click the play button for a montage.
+    5. Click the magnifying glass to search for a specific image.  
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+2. NavBar color change:
+    1. Begin scroll and check color changes on scroll.
+    2. Use nav buttons, check color changes when navigating between sections.
+
+3. Form Validation:
+    1. Go to the "Contact" Page
+    2. Attempt to submit the form with out filling in the fields, and verify error message shows up.
+    3. Attempt to submit with only the name field filled out, ensure name field goes green and rest goes red.
+    4. Repeat on all other fields that are required.
+    5. Fill in all required fields and ensure form submits 
+    
+
+### Bugs:
+
+1. Home page: Contact Me button only works when you click the text "Contact me"
+2. Contact : Form accepts incomplete emails when validating.
+
+
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+This site is hosted on github pages.The page is being hosted directly from the master branch, that way any updates that are committed will be updated straight away.  
+By using the file name `index.html` github pages knows what file to display as the main page, with out this you GP wont know what to display.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+### Running Code locally:
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+
+1. Using Download:
+    1. Navigate to `https://github.com/danielclements/TJ-Dean-Portfolio`.
+    2. Click the green button that says "Clone or Download".
+    3. Click download zip.
+    4. Extract zip file.
+    5. Import in to preferred IDE.
+
+2. Using Git Clone:
+    1. Open terminal in preferred IDE.
+    2. Type "git clone https://github.com/danielclements/TJ-Dean-Portfolio.git"
+    
+
 
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The text for the bio section was written by me.
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in the portfolio section were provided by [TJ Dean](https://www.facebook.com/tjdean97)
+- Background for the Home section was provided by [Pexels](https://www.pexels.com/)
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for the FAQ section from [Nintendo UK](https://www.nintendo.co.uk/Nintendo-Switch/Nintendo-Switch-Online/FAQ-1374625.html).
+- I used code by [Chris Coyier](https://css-tricks.com/perfect-full-page-background-image/) to add full view height background images.
+- The image gallery in the Portfolio section was created by [Fancybox](https://fancyapps.com/fancybox/3/).
+- Background gradient provided by [W3schools](https://www.w3schools.com/css/css3_gradients.asp).
+- Code for color changing Navbar was taken from [Stack Overflow](https://stackoverflow.com/questions/23706003/changing-nav-bar-color-after-scrolling).
 
 
-
-
-
-
-https://css-tricks.com/perfect-full-page-background-image/ Full VH background image 
-
-https://www.pexels.com/ royalty free stock images PEXELS 
-
-https://fancyapps.com/fancybox/3/ for image model / slideshow 
-
-https://www.w3schools.com/css/css3_gradients.asp for background gradeient 
-
-https://www.nintendo.co.uk/Nintendo-Switch/Nintendo-Switch-Online/FAQ-1374625.html inspo for the FAQ page 
-
-
-Form taken from bootstrap documentation - Bug email allowing submit even when incorrected email is submitted 
-also the choose file button dissapears on mobile view 
-
-
-
-https://stackoverflow.com/questions/23706003/changing-nav-bar-color-after-scrolling used to change the bg color of the navbar when scrolled
-
-
-Live version of the site : https://danielclements.github.io/milestone-1-project-v2/
+Live version of the site : https://danielclements.github.io/TJ-Dean-Portfolio/

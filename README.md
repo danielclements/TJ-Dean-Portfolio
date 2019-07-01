@@ -103,8 +103,7 @@ For some/all of your features, you may choose to reference the specific project 
 
 ### Bugs:
 
-1. Home page: Contact Me button only works when you click the text "Contact me"
-2. Contact : Form accepts incomplete emails when validating.
+1. Contact : Form accepts incomplete emails when validating.
 
 
 
